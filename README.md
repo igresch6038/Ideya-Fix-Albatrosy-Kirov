@@ -5,6 +5,7 @@
 git clone https://github.com/igresch6038/Ideya-Fix-Albatrosy-Kirov.git
 cd ./Ideya-Fix-Albatrosy-Kirov
 ```
+### 1.1) в файле перечислены библиотеки используемые в проекте но устанавливать их не надо, они уже в докер образе
 ### 2) отредактировать в .env строки
 ```.env
 BOT_TOKEN=токен_твоего_бота_из_MAX
