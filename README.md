@@ -3,7 +3,7 @@
 ### 1) загрузить файлы с гитхаб
 ```txt
 git clone https://github.com/igresch6038/Ideya-Fix-Albatrosy-Kirov.git
-cd idea-fix-albatrosy-kirov
+cd Idea-Fix-Albatrosy-Kirov
 ```
 ### 2) отредактировать в .env строки
 ```.env
