@@ -1,0 +1,5 @@
+"@maxhub/max-bot-api": "latest",
+"cors": "^2.8.6",
+"dotenv": "latest",
+"express": "^5.3.0",
+"pg": "latest"
