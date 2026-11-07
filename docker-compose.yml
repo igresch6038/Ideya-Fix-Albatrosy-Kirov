@@ -16,7 +16,7 @@ services:
       retries: 10
 
   web:
-    image: ghcr.io/igresch6038/idea-fix-albatrosy-kirov:latest
+    image: ghcr.io/igresch6038/ideya-fix-albatrosy-kirov:latest
     container_name: bot-web
     restart: unless-stopped
     depends_on:
@@ -31,7 +31,7 @@ services:
       - .env
 
   bot:
-    image: ghcr.io/igresch6038/idea-fix-albatrosy-kirov:latest
+    image: ghcr.io/igresch6038/ideya-fix-albatrosy-kirov:latest
     container_name: main-bot
     restart: unless-stopped
     depends_on:
