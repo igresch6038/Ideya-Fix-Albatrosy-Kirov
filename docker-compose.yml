@@ -1,7 +1,7 @@
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: kvanto-pg
+    container_name: bot-pg
     restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
