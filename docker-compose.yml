@@ -17,7 +17,7 @@ services:
 
   web:
     image: ghcr.io/igresch6038/idea-fix-albatrosy-kirov:latest
-    container_name: kvanto-web
+    container_name: bot-web
     restart: unless-stopped
     depends_on:
       postgres:
@@ -32,7 +32,7 @@ services:
 
   bot:
     image: ghcr.io/igresch6038/idea-fix-albatrosy-kirov:latest
-    container_name: kvanto-bot
+    container_name: main-bot
     restart: unless-stopped
     depends_on:
       postgres:
