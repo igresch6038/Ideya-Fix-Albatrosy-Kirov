@@ -1,7 +1,7 @@
 # Ideya-Fix-Albatrosy-Kirov
 
 ### 1) загрузить файлы с гитхаб
-```bash
+```txt
 git clone https://github.com/igresch6038/Ideya-Fix-Albatrosy-Kirov.git
 cd idea-fix-albatrosy-kirov
 ```
